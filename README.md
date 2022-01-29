@@ -39,7 +39,7 @@ The application can be accessed with this link:
 ## Screenshot
 Below is a screenshot of the application
 
-![screenshot](./assets/appScreenshot.png)
+![screenshot](./assets/AppScreenshot.png )
 
 ## Installation
 Google Chrome or any other equivalent is required to run this project.
