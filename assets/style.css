@@ -11,7 +11,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color:  #3E363F;
-    background:#f2ebe9  /* fallback for old browsers */
+    background:#c5c6c7
 }
 
 .container{
@@ -74,9 +74,9 @@ li a{
 
 header .container h1{
     font-family: Monofett;
-    font-size: 70px;
+    font-size: 90px;
     color:  #303179;
-    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px; */
 }
 .card{
     justify-content: center;
@@ -106,7 +106,7 @@ header .container h1{
     flex-direction: column;
     margin-right: 20px;
     width: 300px;
-    height: 300px;
+    height: 100px;
     align-items: center;
     justify-content: center;
 }
@@ -122,20 +122,24 @@ header .container h1{
     display: flex;
     flex-direction: column;
     width: 1035px;
-    height: 308;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .details h4{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 span img{
     width: 60px;
 }
 
+.details p{
+    margin-right: 10px;
+    padding: 10px;
+}
+
 .details p:nth-child(3){
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -156,14 +160,13 @@ span img{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
 .items{
     display: flex;
     width: 1035px;
-    height: 308;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
@@ -178,7 +181,7 @@ span img{
     color: #fff;
     border-radius: 10px;
     margin: 20px 10px;
-    background-color: #4e4f7a;
+    background-color: #494aa8;
     padding: 15px 20px;
     flex-wrap:wrap;
 }
@@ -203,7 +206,7 @@ p{
 }
 footer{
     height: 150px;
-    background:  rgb(3, 32, 56);
+    background:  rgb(3, 32, 56)
 }
 
 footer .container{
@@ -248,4 +251,14 @@ i{
 footer .container h4{
     font-size: 20px;
     color: rgb(255, 255, 255);
+}
+
+.card-item h4 a i{
+    font-size: 20px;
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
