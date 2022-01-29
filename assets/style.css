@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family:'poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color:  #3E363F;
+    background:#f2ebe9  /* fallback for old browsers */
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.navbar .container{
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.navbar{
+    background:  rgb(3, 32, 56);
+}
+
+.navbarLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarLogo h2{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+
+.navbarLogo img{
+    width: 70px;
+}
+
+.navbarLinks ul {
+    display: flex;
+}
+
+.navbarLinks li{
+    list-style: none;
+    float: right;
+    margin: 10px;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.headerdiv .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header .container h1{
+    font-family: Monofett;
+    font-size: 70px;
+    color:  #303179;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #E07A5F;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card span{
+    width: 30px;
+    height: 30px;
+    background-color: #303179;
+    color: white;
+    margin: 0.525px;
+    margin-bottom: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.spaceHeaders{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+#profilePhoto{
+    width: 300px;
+    border-radius: 900px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    width: 1035px;
+    height: 308;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.details h4{
+    margin-bottom: 20px;
+}
+
+span img{
+    width: 60px;
+}
+
+.details p:nth-child(3){
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+}
+#binaryCode{
+    font-size: 8px;
+    color: rgb(164, 183, 194);
+}
+.games span{
+    width: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.items{
+    display: flex;
+    width: 1035px;
+    height: 308;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-item{
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background: #ee9ca7;
+    color: #fff;
+    border-radius: 10px;
+    margin: 20px 10px;
+    background-color: #4e4f7a;
+    padding: 15px 20px;
+    flex-wrap:wrap;
+}
+
+.card-item img{
+    justify-content: center;
+    height: 100px;
+}
+
+p{
+    text-align: justify;
+}
+
+.card-item p{
+    font-size: small;
+}
+
+.card-item a{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: bold;
+}
+footer{
+    height: 150px;
+    background:  rgb(3, 32, 56);
+}
+
+footer .container{
+    display: flex;
+}
+
+
+footer .container h3{
+    display: flex;
+}
+
+footer .container h3 a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contactLinks{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+footer .container{
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+ul li{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+}
+
+i{
+    font-size: 40px;
+}
+
+footer .container h4{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
